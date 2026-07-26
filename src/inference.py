@@ -6,7 +6,8 @@ from pathlib import Path
 from src.config import load_config
 
 class YOLOv11Inference:
-    def __init__(self, model_name, device= "cuda" if torch.cuda.is_available() else "cpu"'):
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    def __init__(self, model_name, device=device):
         self.model = YOLO(model_name)
         self.device = device
         self.model.to(self.device)
