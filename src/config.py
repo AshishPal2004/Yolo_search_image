@@ -18,7 +18,6 @@ RAW_DIR.mkdir(parents=True, exist_ok=True)
 PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
 CONFIG_DIR.mkdir(parents=True, exist_ok=True)
 
-# Add the missing load_config function
 def load_config(config_name="default.yaml"):
     """
     Loads a YAML configuration file from the configs directory.
