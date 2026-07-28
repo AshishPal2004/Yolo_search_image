@@ -1,0 +1,373 @@
+[
+    {
+        "image_path": "C:\\Users\\Ashish Pal\\OneDrive\\Desktop\\udemycor\\images\\cattle_id_109_08.jpg",
+        "detections": [
+            {
+                "class": "person",
+                "confidence": 0.44282108545303345,
+                "bbox": [
+                    0.3251953125,
+                    27.383056640625,
+                    443.454833984375,
+                    637.61474609375
+                ],
+                "count": 5
+            },
+            {
+                "class": "person",
+                "confidence": 0.34262144565582275,
+                "bbox": [
+                    324.9653015136719,
+                    0.25182342529296875,
+                    479.7468566894531,
+                    108.99237060546875
+                ],
+                "count": 5
+            },
+            {
+                "class": "person",
+                "confidence": 0.3398779630661011,
+                "bbox": [
+                    0.156982421875,
+                    70.99407958984375,
+                    76.20526123046875,
+                    480.50592041015625
+                ],
+                "count": 5
+            },
+            {
+                "class": "person",
+                "confidence": 0.3289707899093628,
+                "bbox": [
+                    301.90325927734375,
+                    248.68463134765625,
+                    479.53790283203125,
+                    638.9794921875
+                ],
+                "count": 5
+            },
+            {
+                "class": "person",
+                "confidence": 0.3106030821800232,
+                "bbox": [
+                    391.3072509765625,
+                    249.75355529785156,
+                    479.7886962890625,
+                    628.1297607421875
+                ],
+                "count": 5
+            }
+        ],
+        "total_objects": 5,
+        "unique_class": [
+            "person"
+        ],
+        "class_counts": {
+            "person": 5
+        }
+    },
+    {
+        "image_path": "C:\\Users\\Ashish Pal\\OneDrive\\Desktop\\udemycor\\images\\output_image.jpg",
+        "detections": [
+            {
+                "class": "dog",
+                "confidence": 0.9451231956481934,
+                "bbox": [
+                    498.63897705078125,
+                    96.69096374511719,
+                    2223.06884765625,
+                    1469.457763671875
+                ],
+                "count": 1
+            },
+            {
+                "class": "couch",
+                "confidence": 0.9064664244651794,
+                "bbox": [
+                    1148.9400634765625,
+                    0.0,
+                    2813.2685546875,
+                    737.0668334960938
+                ],
+                "count": 1
+            },
+            {
+                "class": "potted plant",
+                "confidence": 0.8649558424949646,
+                "bbox": [
+                    626.033447265625,
+                    87.24320983886719,
+                    1131.8431396484375,
+                    736.5038452148438
+                ],
+                "count": 1
+            }
+        ],
+        "total_objects": 3,
+        "unique_class": [
+            "dog",
+            "couch",
+            "potted plant"
+        ],
+        "class_counts": {
+            "dog": 1,
+            "couch": 1,
+            "potted plant": 1
+        }
+    },
+    {
+        "image_path": "C:\\Users\\Ashish Pal\\OneDrive\\Desktop\\udemycor\\images\\coinimage.png",
+        "detections": [
+            {
+                "class": "clock",
+                "confidence": 0.8751148581504822,
+                "bbox": [
+                    148.02464294433594,
+                    32.25886917114258,
+                    270.5346984863281,
+                    144.99624633789062
+                ],
+                "count": 11
+            },
+            {
+                "class": "clock",
+                "confidence": 0.87246173620224,
+                "bbox": [
+                    425.31500244140625,
+                    193.44683837890625,
+                    559.9669189453125,
+                    321.478271484375
+                ],
+                "count": 11
+            },
+            {
+                "class": "clock",
+                "confidence": 0.8505237102508545,
+                "bbox": [
+                    256.1009216308594,
+                    158.97918701171875,
+                    369.3457336425781,
+                    266.0090637207031
+                ],
+                "count": 11
+            },
+            {
+                "class": "clock",
+                "confidence": 0.7766679525375366,
+                "bbox": [
+                    700.0968017578125,
+                    95.56757354736328,
+                    801.3963623046875,
+                    189.9270782470703
+                ],
+                "count": 11
+            },
+            {
+                "class": "clock",
+                "confidence": 0.7716456055641174,
+                "bbox": [
+                    531.2998657226562,
+                    45.20159149169922,
+                    643.4163818359375,
+                    149.20419311523438
+                ],
+                "count": 11
+            },
+            {
+                "class": "clock",
+                "confidence": 0.7150453925132751,
+                "bbox": [
+                    24.184772491455078,
+                    148.10153198242188,
+                    136.5042724609375,
+                    255.31356811523438
+                ],
+                "count": 11
+            },
+            {
+                "class": "clock",
+                "confidence": 0.7014038562774658,
+                "bbox": [
+                    358.2121887207031,
+                    0.8107075691223145,
+                    457.3259582519531,
+                    70.30345153808594
+                ],
+                "count": 11
+            },
+            {
+                "class": "clock",
+                "confidence": 0.6926893591880798,
+                "bbox": [
+                    577.1785888671875,
+                    199.2952880859375,
+                    678.7708129882812,
+                    296.4669494628906
+                ],
+                "count": 11
+            },
+            {
+                "class": "clock",
+                "confidence": 0.6085947155952454,
+                "bbox": [
+                    163.48129272460938,
+                    289.2505798339844,
+                    250.8048553466797,
+                    373.2095031738281
+                ],
+                "count": 11
+            },
+            {
+                "class": "clock",
+                "confidence": 0.5588247776031494,
+                "bbox": [
+                    516.2766723632812,
+                    438.63726806640625,
+                    620.6476440429688,
+                    483.4430847167969
+                ],
+                "count": 11
+            },
+            {
+                "class": "clock",
+                "confidence": 0.40039291977882385,
+                "bbox": [
+                    653.558837890625,
+                    326.5916442871094,
+                    758.2007446289062,
+                    429.0047912597656
+                ],
+                "count": 11
+            }
+        ],
+        "total_objects": 11,
+        "unique_class": [
+            "clock"
+        ],
+        "class_counts": {
+            "clock": 11
+        }
+    },
+    {
+        "image_path": "C:\\Users\\Ashish Pal\\OneDrive\\Desktop\\udemycor\\images\\image.png",
+        "detections": [],
+        "total_objects": 0,
+        "unique_class": [],
+        "class_counts": {}
+    },
+    {
+        "image_path": "C:\\Users\\Ashish Pal\\OneDrive\\Desktop\\udemycor\\images\\mixed_images.png",
+        "detections": [
+            {
+                "class": "dog",
+                "confidence": 0.9448570609092712,
+                "bbox": [
+                    499.3572998046875,
+                    96.8598861694336,
+                    2220.541748046875,
+                    1470.5487060546875
+                ],
+                "count": 1
+            },
+            {
+                "class": "couch",
+                "confidence": 0.9054979085922241,
+                "bbox": [
+                    1146.93603515625,
+                    0.0,
+                    2813.20361328125,
+                    738.7398071289062
+                ],
+                "count": 1
+            },
+            {
+                "class": "potted plant",
+                "confidence": 0.8719286918640137,
+                "bbox": [
+                    626.0997924804688,
+                    88.88743591308594,
+                    1121.6435546875,
+                    736.071044921875
+                ],
+                "count": 1
+            }
+        ],
+        "total_objects": 3,
+        "unique_class": [
+            "dog",
+            "couch",
+            "potted plant"
+        ],
+        "class_counts": {
+            "dog": 1,
+            "couch": 1,
+            "potted plant": 1
+        }
+    },
+    {
+        "image_path": "C:\\Users\\Ashish Pal\\OneDrive\\Desktop\\udemycor\\images\\output.png",
+        "detections": [
+            {
+                "class": "cup",
+                "confidence": 0.635173499584198,
+                "bbox": [
+                    371.2646484375,
+                    82.67367553710938,
+                    446.48272705078125,
+                    159.76083374023438
+                ],
+                "count": 1
+            },
+            {
+                "class": "bowl",
+                "confidence": 0.39505407214164734,
+                "bbox": [
+                    36.48185348510742,
+                    125.45458221435547,
+                    108.47566223144531,
+                    197.63023376464844
+                ],
+                "count": 1
+            }
+        ],
+        "total_objects": 2,
+        "unique_class": [
+            "cup",
+            "bowl"
+        ],
+        "class_counts": {
+            "cup": 1,
+            "bowl": 1
+        }
+    },
+    {
+        "image_path": "C:\\Users\\Ashish Pal\\OneDrive\\Desktop\\udemycor\\images\\test_dog.png",
+        "detections": [
+            {
+                "class": "dog",
+                "confidence": 0.9684794545173645,
+                "bbox": [
+                    135.26173400878906,
+                    26.58376693725586,
+                    499.6002197265625,
+                    328.55230712890625
+                ],
+                "count": 1
+            }
+        ],
+        "total_objects": 1,
+        "unique_class": [
+            "dog"
+        ],
+        "class_counts": {
+            "dog": 1
+        }
+    },
+    {
+        "image_path": "C:\\Users\\Ashish Pal\\OneDrive\\Desktop\\udemycor\\images\\wirtten.png",
+        "detections": [],
+        "total_objects": 0,
+        "unique_class": [],
+        "class_counts": {}
+    }
+]

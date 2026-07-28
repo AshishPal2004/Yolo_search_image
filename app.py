@@ -97,15 +97,26 @@ if option == "Process new images":
                     with st.spinner("Running object detection..."):
                         inferencer = YOLOv11Inference(model_path)
                         metadata = inferencer.process_directory(target_dir)
+
                         
-                        # Saves to data/processed/<dataset_name>/metadata.json
                         metadata_path = save_metadata(metadata, dataset_name) 
                         
-                        st.success(f"Processed {len(metadata)} images!")
-                        st.code(f"Saved Metadata Path: {metadata_path}")
-                        
+                        # 1. Update metadata state
                         st.session_state.metadata = metadata
                         st.session_state.unique_classes, st.session_state.count_options = get_unique_classes_counts(metadata)
+                        
+                        # 2. Reset the search engine state completely
+                        st.session_state.search_results = []
+                        st.session_state.search_params = {
+                            "search_mode": "Any of selected classes (OR)",
+                            "selected_classes": [],
+                            "thresholds": {}
+                        }
+
+                        st.success(f"Processed {len(metadata)} images! Refreshing UI...")
+                        time.sleep(1) 
+                        st.rerun()    # Force the UI to refresh with the new data
+                        
                 except Exception as e:
                     st.error(f"Error during inference: {str(e)}")
             else:
@@ -128,9 +139,21 @@ else:
                         metadata = None
 
                     if metadata:
+                        # 1. Update metadata state
                         st.session_state.metadata = metadata
                         st.session_state.unique_classes, st.session_state.count_options = get_unique_classes_counts(metadata)
-                        st.success(f"Loaded metadata for {len(metadata)} images.")
+                        
+                        # 2. Reset the search engine state completely
+                        st.session_state.search_results = []
+                        st.session_state.search_params = {
+                            "search_mode": "Any of selected classes (OR)",
+                            "selected_classes": [],
+                            "thresholds": {}
+                        }
+                        
+                        st.success(f"Loaded metadata for {len(metadata)} images. Refreshing UI...")
+                        time.sleep(1) # Pause briefly so you can read the success message
+                        st.rerun()    # Force the UI to refresh with the new data
             except Exception as e:
                 st.error(f"Error loading metadata: {str(e)}")
 

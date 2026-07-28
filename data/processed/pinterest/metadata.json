@@ -1,0 +1,264 @@
+[
+    {
+        "image_path": "C:\\Users\\Ashish Pal\\OneDrive\\Desktop\\pinterest\\download (1).jpg",
+        "detections": [
+            {
+                "class": "bird",
+                "confidence": 0.4891836941242218,
+                "bbox": [
+                    499.785400390625,
+                    63.23471450805664,
+                    556.3508911132812,
+                    120.1784896850586
+                ],
+                "count": 1
+            }
+        ],
+        "total_objects": 1,
+        "unique_class": [
+            "bird"
+        ],
+        "class_counts": {
+            "bird": 1
+        }
+    },
+    {
+        "image_path": "C:\\Users\\Ashish Pal\\OneDrive\\Desktop\\pinterest\\download.jpg",
+        "detections": [],
+        "total_objects": 0,
+        "unique_class": [],
+        "class_counts": {}
+    },
+    {
+        "image_path": "C:\\Users\\Ashish Pal\\OneDrive\\Desktop\\pinterest\\Snapchat-1053484031.jpg.jpeg",
+        "detections": [],
+        "total_objects": 0,
+        "unique_class": [],
+        "class_counts": {}
+    },
+    {
+        "image_path": "C:\\Users\\Ashish Pal\\OneDrive\\Desktop\\pinterest\\Snapchat-1527199299.jpg.jpeg",
+        "detections": [
+            {
+                "class": "person",
+                "confidence": 0.9083760976791382,
+                "bbox": [
+                    2.970062255859375,
+                    81.01593017578125,
+                    1076.0225830078125,
+                    1908.0455322265625
+                ],
+                "count": 1
+            }
+        ],
+        "total_objects": 1,
+        "unique_class": [
+            "person"
+        ],
+        "class_counts": {
+            "person": 1
+        }
+    },
+    {
+        "image_path": "C:\\Users\\Ashish Pal\\OneDrive\\Desktop\\pinterest\\Snapchat-1707111785.jpg.jpeg",
+        "detections": [
+            {
+                "class": "person",
+                "confidence": 0.34216898679733276,
+                "bbox": [
+                    1377.0540771484375,
+                    845.9249877929688,
+                    1458.0,
+                    1201.1920166015625
+                ],
+                "count": 1
+            }
+        ],
+        "total_objects": 1,
+        "unique_class": [
+            "person"
+        ],
+        "class_counts": {
+            "person": 1
+        }
+    },
+    {
+        "image_path": "C:\\Users\\Ashish Pal\\OneDrive\\Desktop\\pinterest\\Snapchat-2051596764.jpg.jpeg",
+        "detections": [],
+        "total_objects": 0,
+        "unique_class": [],
+        "class_counts": {}
+    },
+    {
+        "image_path": "C:\\Users\\Ashish Pal\\OneDrive\\Desktop\\pinterest\\WhatsApp Image 2026-07-22 at 3.13.40 PM (1).jpeg",
+        "detections": [
+            {
+                "class": "person",
+                "confidence": 0.9291579723358154,
+                "bbox": [
+                    331.90216064453125,
+                    53.76953125,
+                    957.9535522460938,
+                    1279.354248046875
+                ],
+                "count": 1
+            }
+        ],
+        "total_objects": 1,
+        "unique_class": [
+            "person"
+        ],
+        "class_counts": {
+            "person": 1
+        }
+    },
+    {
+        "image_path": "C:\\Users\\Ashish Pal\\OneDrive\\Desktop\\pinterest\\WhatsApp Image 2026-07-22 at 3.13.40 PM.jpeg",
+        "detections": [
+            {
+                "class": "person",
+                "confidence": 0.8229243159294128,
+                "bbox": [
+                    231.87486267089844,
+                    295.51495361328125,
+                    899.0,
+                    1592.2327880859375
+                ],
+                "count": 1
+            }
+        ],
+        "total_objects": 1,
+        "unique_class": [
+            "person"
+        ],
+        "class_counts": {
+            "person": 1
+        }
+    },
+    {
+        "image_path": "C:\\Users\\Ashish Pal\\OneDrive\\Desktop\\pinterest\\WhatsApp Image 2026-07-22 at 3.35.14 PM (1).jpeg",
+        "detections": [
+            {
+                "class": "person",
+                "confidence": 0.936008870601654,
+                "bbox": [
+                    174.71023559570312,
+                    19.743858337402344,
+                    861.0747680664062,
+                    1149.5799560546875
+                ],
+                "count": 1
+            }
+        ],
+        "total_objects": 1,
+        "unique_class": [
+            "person"
+        ],
+        "class_counts": {
+            "person": 1
+        }
+    },
+    {
+        "image_path": "C:\\Users\\Ashish Pal\\OneDrive\\Desktop\\pinterest\\WhatsApp Image 2026-07-22 at 3.35.14 PM (2).jpeg",
+        "detections": [
+            {
+                "class": "person",
+                "confidence": 0.9463728070259094,
+                "bbox": [
+                    1.2076857089996338,
+                    57.0745735168457,
+                    1235.40869140625,
+                    1064.6202392578125
+                ],
+                "count": 2
+            },
+            {
+                "class": "person",
+                "confidence": 0.44167906045913696,
+                "bbox": [
+                    1178.3128662109375,
+                    727.12255859375,
+                    1237.2762451171875,
+                    978.3572998046875
+                ],
+                "count": 2
+            }
+        ],
+        "total_objects": 2,
+        "unique_class": [
+            "person"
+        ],
+        "class_counts": {
+            "person": 2
+        }
+    },
+    {
+        "image_path": "C:\\Users\\Ashish Pal\\OneDrive\\Desktop\\pinterest\\WhatsApp Image 2026-07-22 at 3.35.14 PM.jpeg",
+        "detections": [
+            {
+                "class": "person",
+                "confidence": 0.9611960649490356,
+                "bbox": [
+                    0.604705810546875,
+                    289.633056640625,
+                    718.3804321289062,
+                    1428.17431640625
+                ],
+                "count": 1
+            }
+        ],
+        "total_objects": 1,
+        "unique_class": [
+            "person"
+        ],
+        "class_counts": {
+            "person": 1
+        }
+    },
+    {
+        "image_path": "C:\\Users\\Ashish Pal\\OneDrive\\Desktop\\pinterest\\Adobe Express - file.png",
+        "detections": [
+            {
+                "class": "elephant",
+                "confidence": 0.3233363926410675,
+                "bbox": [
+                    53.1937370300293,
+                    64.42163848876953,
+                    206.10488891601562,
+                    195.4685821533203
+                ],
+                "count": 1
+            }
+        ],
+        "total_objects": 1,
+        "unique_class": [
+            "elephant"
+        ],
+        "class_counts": {
+            "elephant": 1
+        }
+    },
+    {
+        "image_path": "C:\\Users\\Ashish Pal\\OneDrive\\Desktop\\pinterest\\cow-mask.png",
+        "detections": [
+            {
+                "class": "sheep",
+                "confidence": 0.49005165696144104,
+                "bbox": [
+                    54.473873138427734,
+                    65.36017608642578,
+                    205.55967712402344,
+                    195.32492065429688
+                ],
+                "count": 1
+            }
+        ],
+        "total_objects": 1,
+        "unique_class": [
+            "sheep"
+        ],
+        "class_counts": {
+            "sheep": 1
+        }
+    }
+]
