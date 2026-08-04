@@ -117,6 +117,4 @@ data:
 
 ---
 
-## 📄 License
 
-Add a license of your choice (e.g. MIT) here.
